@@ -1,114 +1,246 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-                <li>
-                    <a href="#" title="Ir para a seção de esportes">Entretenimento</a>
-                </li>
-                <li>
-                    <a href="#" title="Ir para a seção de notícias">tecnologia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ir para a seção de esportes">Entretenimento</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ir para a seção de notícias">Tecnologia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <article>
-            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Grande clássico na noite de hoje</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Noite do Superbowl</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <article>
+                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Grande clássico na noite de hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/futebol-americano.jpg"
+                    alt="Jogador de futebol americano correndo com a bola na mão" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Noite do Superbowl</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
     </section>
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Dólar em alta de 0.50%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Euro em queda de 0.40%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Alta no preço do barril do petróleo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+    </div>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <article>
+                <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Dólar em alta de 0.50%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Euro em queda de 0.40%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Alta no preço do barril do petróleo</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                    labore
+                    architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                    error?
+                    Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+    </section>
+    <section class="container">
+        <div class="container">
+            <h2>Entretenimento</h2>
+
+            <article>
+                <img src="./imagens/Imagem1.png" alt="Nenina usando de realidade virtual">
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+
+                <h3>Descubra as Melhores Opções para se Divertir</h3>
+                <p>Se você está em busca de diversão e entretenimento, você veio ao lugar certo. Neste artigo, vamos
+                    explorar
+                    diversas opções de entretenimento para você aproveitar ao máximo seu tempo livre. Desde opções
+                    tradicionais
+                    até as mais modernas, vamos abordar uma variedade de atividades para todos os gostos. Continue lendo
+                    para
+                    descobrir as melhores maneiras de se divertir!</p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <h2></h2>
+                <img src="./imagens/Imagem2.png" alt="Multidão de jovens">
+                <header>
+                    <time>13/07/2022</time>
+                </header>
+                <h3>O entretenimento de seus filhos é edificante ou prejudicial ao crescimento intelectual deles.</h3>
+                <p>Entretenimento é qualquer atividade que desperta o interesse das pessoas e as diverte ou mantém
+                    entretida de
+                    alguma forma, ele pode ser passivo, quando as pessoas não participam das atividades, são apenas
+                    expectadores
+                    como no caso de teatro, programação televisiva, shows dentre outros; quando se trata de entretidos
+                    ativos
+                    podemos citar jogos, confecção de artesanatos, culinária, escrita, e outros mais.</p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+
+            </article>
+            <article>
+                <img src="./imagens/Imagem3.png" alt="Multidões em shows">
+                <header>
+                    <time>13/07/2022</time>
+                </header>
+                <h3>Summer Beats 2024 acontece em São Paulo com entrada gratuita.</h3>
+                <p>Festival Summer Beats 2024 acontece neste domingo, 15 de setembro, e terá shows de grandes nomes da
+                    música
+                    católica, como Frei Gilson e Padre Marcelo Rossi</p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+
+            </article>
+        </div>
+    </section>
+    <section class="container">
+        <div class="container">
+            <h1>Tecnologia</h1>
+            <article>
+                <img src="./imagens/Imagem4.png" alt="Um robô pegando um prato da mão de uma moça">
+                <header>
+                    <time>13/07/2022</time>
+                </header>
+                <h3>Empresa lança robô humanoide de IA controlado com linguagem natural.</h3>
+                <p>A Mentee Robotics, startup israelense fundada em 2022, anunciou o MenteeBot, um robô humanoide
+                    personalizado com tecnologia de inteligência artificial capaz de realizar tarefas “com o mesmo
+                    equilíbrio e controle de um humano”, de acordo com a empresa. Os modelos podem ser comandados com
+                    linguagem natural e, curiosamente, a maioria deles não têm cabeça.</p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+
+            <article>
+
+                <img src="./imagens/Imagem6.png" alt="Ícone do bluetooth">
+                <header>
+                    <time>13/07/2022</time>
+                </header>
+                <h3>Bluetooth 6.0 é apresentado com localização ainda mais precisa.</h3>
+                <p>O Bluetooth Special Interest Group (SIG) lançou as especificações do Bluetooth 6.0 na última
+                    terça-feira (3). O novo padrão abre caminho para novos recursos e aprimoramentos significativos,
+                    principalmente para funções de localização.</p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+
+            </article>
+            <article>
+                <img src="./imagens/Imagem5.png" alt="peça de metal no espaço ">
+                <header>
+                    <time>13/07/2022</time>
+                </header>
+                <h3>Astronautas criam primeira peça de metal no espaço com impressão 3D.</h3>
+                <p>Astronautas da Estação Espacial Internacional (ISS) utilizaram uma impressora 3D para produzir a
+                    primeira
+                    peça de metal feita no espaço.</p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+
     </section>
 </body>
+
 </html>
